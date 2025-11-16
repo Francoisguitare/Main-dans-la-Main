@@ -14,7 +14,7 @@ import {
 import { NeedCard } from '../types';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC408YUZX_ctHyNfcoQ2ERMiycXv-ocPFQ",
+  apiKey: process.env.API_KEY,
   authDomain: "main-dans-la-main-bf7db.firebaseapp.com",
   projectId: "main-dans-la-main-bf7db",
   storageBucket: "main-dans-la-main-bf7db.firebasestorage.app",
